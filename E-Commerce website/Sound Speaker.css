@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    background-color: black;
+    color:white;
+    padding: 15px;
+}
+h1{
+    display: inline-block;
+}
+h1,ul,li{
+    display: inline-block;
+}
+ul{
+    margin-left:80%;
+}
+li{
+    color:lightsteelblue;
+    cursor:pointer;
+}
+li:hover{
+    color:white;
+}
+#box{
+    margin:15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+}
+.prize{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 75px;
+}
+.bluetooth{
+    margin-left:56px;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.ft{
+    margin-top:10px;
+    margin-bottom:10px ;
+   text-align: justify;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+figure{
+    display: inline-block;
+    margin: 20px;
+}
+.buy{
+    display: inline;
+    background:linear-gradient(rgb(155, 58, 155),rgb(212, 87, 108),rgb(192, 107, 121),rgb(192, 107, 121),rgb(145, 47, 145));
+    font-size: 40 px;
+    color: rgb(223, 230, 241);
+    border-radius: 14px;
+    margin-left: 80%;
+    padding:5px;
+    border-bottom-right-radius:0px;
+}
+
+.boxth,.boxth1,.boxth2{
+    border-color: rgb(211, 203, 203);
+    border-style: solid;
+    border-width: 1px;
+    width : 400px;
+    height: 400px;
+    display: inline-block;
+    margin:20px;
+    margin-top: 40px;
+}
+.box1{
+    width:140px;
+    height:140px;
+    margin: 15px;
+}
+h3{
+    text-align: center;
+    padding:2px;
+}
+@media screen and (max-width:1000px){
+    ul{
+        margin-left:10%;
+    }
+    .buy{
+        margin-left: 50%;
+    }
+}
+@media screen and (max-width:425px){
+    ul{
+        margin-left:7%;
+    }
+    .buy{
+        margin-left: 50%;
+    }
+}

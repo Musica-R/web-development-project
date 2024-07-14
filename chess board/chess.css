@@ -1,0 +1,57 @@
+html{
+    background:linear-gradient(hsl(155, 93%, 33%),hsl(155, 71%, 58%),hsl(155, 61%, 45%),hsl(155, 92%, 31%));
+}
+body{
+    height:800px;
+    width:800px;
+    background-color: white;
+    margin:30px auto;
+}
+.row{
+    height:100px;
+    width:100%;
+    float:left;
+}
+.row1{
+    height:100px;
+    width:100%;
+    float:left;
+    color:hsl(155, 78%, 48%);
+}
+.row2{
+    height:100px;
+    width:100%;
+    float:left;
+    color:hsl(155, 91%, 29%);
+}
+.box{
+    height: 100px;
+    width:100px;
+    float:left;
+    font-size: 70px;
+    text-align: center;
+    
+}
+.black{
+    background-color: black; /*box first class black is second class*/
+}
+.box:hover{
+    background-color: rgb(30, 131, 199);
+    cursor: pointer;
+}
+@media  screen and (max-width:1000px) {
+    html{
+        display: flex;
+        justify-content: center;
+        height: 92vh;
+        align-items: center;
+    }
+}
+@media  screen and (max-width:425px) {
+    html{
+        display: flex;
+        justify-content: center;
+        height: 92vh;
+        align-items: center;
+    }
+}
