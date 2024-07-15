@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div>
+        <center>
+        <h1>Guess the number</h1>
+        <input id="yourno">
+        <br><br>
+        <button onclick="check()">Check</button>
+        <p id="result">Your Right or wrong</p>
+        <p id="score">score : 10</p>
+        </div>
+    </center>
+        <script> 
+        var a=document.getElementById("yourno");
+        var b=document.getElementById("result");
+        var c=document.getElementById("score");
+        var com=Math.floor(Math.random()*10)+1;
+        var total=10;
+        function check(){
+          var Enter=yourno.value;
+          if(com==Enter){
+            result.textContent="Right";
+            alert("Your Win 💖💖 Excellent very good🔥🔥🔥🔥🔥🔥🔥");
+          }
+          else{
+            total=total-1;
+            score.textContent="score:"+total;
+            result.textContent="wrong";
+            document.getElementById("yourno").value='';
+          }
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 93vh;
+} 
+div{
+  background:linear-gradient(rgb(116, 243, 232),rgb(235, 130, 217));
+  width:350px;
+  padding: 20px;
+  border-radius: 20px;
+  border-color: rgb(170, 70, 70);
+  border-style: solid;
+  border-width: 1px;
+}
+input{
+    padding: 5px;
+    border-radius:10px;
+    outline: none;
+}
+button{
+    border-radius: 10px;
+    padding: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background:linear-gradient(rgb(116, 243, 232),rgb(235, 130, 217));
+}
+p{
+    font-size:20px;
+}
+h1{
+    font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
